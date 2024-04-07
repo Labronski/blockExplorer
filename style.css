@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefcfc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+}
+
+#searchInput {
+    width: 35%; /* Adjust the width as needed */
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc; /* Add border for the search box */
+    border-radius: 30px; /* Add rounded edges */
+    text-align: center; 
+}
+
+#submitBtn {
+    width: 10%; /* Adjust the width as needed */
+    padding: 15px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Add border for the search box */
+    border-radius: 30px; /* Add rounded edges */
+}
+
+#submitBtn:hover {
+    background-color: #0056b3;
+}
+
+.search-container {
+    text-align: center; /* Align the search container content to the left */
+}
+
+#resultsContainer {
+   width: 45%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left; /* Align the text inside the container to the left */
+    font-size: 20px;
+}
+
+
+#resultsContainer a {
+    display: block;
+    margin-bottom: 15px; /* Add spacing between each result */
+
+}
+
+#resultsContainer .no-result {
+    margin-top: 0px; /* Add spacing between each result */
+
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#loadingIndicator {
+    width: 45%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left; /* Align the text inside the container to the left */
+    font-size: 20px;
+}
